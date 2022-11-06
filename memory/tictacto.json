@@ -1,0 +1,9 @@
+{
+    "game": {
+        "player1": null,
+        "player2": null,
+        "curr_player": 1,
+        "next_tictacto": "6",
+        "state": -1
+    }
+}
