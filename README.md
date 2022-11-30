@@ -6,7 +6,7 @@ Pour lancer une commande du takubot on utilise la syntaxe ``` $commandName ```.
 ### clear
 La commande clear permet de supprimer plusieur message d'un seul coup . Elle prend comme paramètre le nombre de message a supprimer. Seul les utilisateurs pouvant supprimer les messages des autres utilisateurs peuvent utiliser cette commandes.
 ### play
-
+La commande play permet de lancer et jouer au jeu du super tic-tac-toe
 ### role
 ### spam
 ### uno
