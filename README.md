@@ -9,7 +9,7 @@ La commande clear permet de supprimer plusieur message d'un seul coup . Elle pre
 La commande play permet de lancer et jouer au jeu du super tic-tac-toe .
 #### Régle
 Le jeu ce suit les règles du morpions mais chaque case du morpion est composé d'un autre morpion , pour marquer la case d'un grand morpion il faut gagner le petit morpion dont elle est composée.
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](/images/plateauTTT.png "Optional Title")
 ### role
 ### spam
 ### uno
