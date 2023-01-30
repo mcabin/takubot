@@ -3,7 +3,7 @@ const config=require('../config.json');
 const fs=require("fs");
 
 module.exports.run = async (bot,message,args,argv) =>{
-    let path_r=require("../memory/racaille.json");
+    let path_r=require("../memory/jail.json");
     if(!message.channel.permissionsFor(message.member).has("ADMINISTRATOR", false))return;
     if(args[0]=="arrest"){
         let member=message.mentions.members.first();
@@ -15,7 +15,7 @@ module.exports.run = async (bot,message,args,argv) =>{
             message:role_list
         }
 
-        fs.writeFile('./memory/racaille.json', JSON.stringify(path_r, null,4), err => {
+        fs.writeFile('./memory/jail.json', JSON.stringify(path_r, null,4), err => {
             if(err) throw err;
         });
         
@@ -58,7 +58,7 @@ module.exports.run = async (bot,message,args,argv) =>{
         }
         let free_list=path_r[member.id].message;
         delete path_r[member.id];
-        fs.writeFile('./memory/racaille.json', JSON.stringify(path_r, null,4), err => {
+        fs.writeFile('./memory/jail.json', JSON.stringify(path_r, null,4), err => {
             if(err) throw err;
         });
 
